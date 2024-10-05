@@ -1,0 +1,16 @@
+# dune exec helloworld
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /root/.cache/dune/db
+# Workspace root: /usr/bin/ocaml-challenge/helloworld
+# Auto-detected concurrency: 12
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; instrument_with = []
+#  }
+$ /root/.opam/lip/bin/ocamlc.opt -config > /tmp/dune_f8ad7e_output
