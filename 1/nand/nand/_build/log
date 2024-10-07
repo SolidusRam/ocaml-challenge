@@ -1,4 +1,4 @@
-# dune exec nand
+# dune utop
 # OCAMLPARAM: unset
 # Shared cache: disabled
 # Shared cache location: /root/.cache/dune/db
@@ -13,18 +13,6 @@
 #  ; build_dir = In_build_dir "default"
 #  ; instrument_with = []
 #  }
-$ /root/.opam/lip/bin/ocamlc.opt -config > /tmp/dune_e8e34c_output
-$ (cd _build/default && /root/.opam/lip/bin/ocamlopt.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -g -I bin/.main.eobjs/byte -I bin/.main.eobjs/native -I lib/.nand.objs/byte -I lib/.nand.objs/native -intf-suffix .ml -no-alias-deps -opaque -o bin/.main.eobjs/native/dune__exe__Main.cmx -c -impl bin/main.ml)
-> File "bin/main.ml", line 4, characters 4-8:
-> 4 | let nand a b = not (a && b);;
->         ^^^^
-> Error (warning 32 [unused-value-declaration]): unused value nand.
-> File "bin/main.ml", line 7, characters 4-9:
-> 7 | let nand2 a b =
->         ^^^^^
-> Error (warning 32 [unused-value-declaration]): unused value nand2.
-> File "bin/main.ml", line 14, characters 4-9:
-> 14 | let nand3 a b =
->          ^^^^^
-> Error (warning 32 [unused-value-declaration]): unused value nand3.
-[2]
+$ /root/.opam/lip/bin/ocamlc.opt -config > /tmp/dune_6221f0_output
+$ (cd _build/default && /root/.opam/lip/bin/ocamlc.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -24 -g -bin-annot -I .utop/.utop.eobjs/byte -I /root/.opam/lip/lib/bytes -I /root/.opam/lip/lib/findlib -I /root/.opam/lip/lib/lambda-term -I /root/.opam/lip/lib/logs -I /root/.opam/lip/lib/lwt -I /root/.opam/lip/lib/lwt/unix -I /root/.opam/lip/lib/lwt_react -I /root/.opam/lip/lib/mew -I /root/.opam/lip/lib/mew_vi -I /root/.opam/lip/lib/ocaml/compiler-libs -I /root/.opam/lip/lib/ocaml/threads -I /root/.opam/lip/lib/ocplib-endian -I /root/.opam/lip/lib/ocplib-endian/bigstring -I /root/.opam/lip/lib/react -I /root/.opam/lip/lib/result -I /root/.opam/lip/lib/trie -I /root/.opam/lip/lib/uchar -I /root/.opam/lip/lib/utop -I /root/.opam/lip/lib/uucp -I /root/.opam/lip/lib/uuseg -I /root/.opam/lip/lib/uutf -I /root/.opam/lip/lib/xdg -I /root/.opam/lip/lib/zed -I lib/.nand.objs/byte -no-alias-deps -o .utop/.utop.eobjs/byte/dune__exe__Utop.cmo -c -impl .utop/utop.ml-gen)
+$ (cd _build/default && /root/.opam/lip/bin/ocamlc.opt -w @1..3@5..28@31..39@43@46..47@49..57@61..62@67@69-40 -strict-sequence -strict-formats -short-paths -keep-locs -w -24 -g -o .utop/utop.bc /root/.opam/lip/lib/ocaml/compiler-libs/ocamlcommon.cma /root/.opam/lip/lib/ocaml/compiler-libs/ocamlbytecomp.cma /root/.opam/lip/lib/ocaml/compiler-libs/ocamltoplevel.cma /root/.opam/lip/lib/findlib/findlib.cma /root/.opam/lip/lib/findlib/findlib_top.cma /root/.opam/lip/lib/logs/logs.cma /root/.opam/lip/lib/lwt/lwt.cma /root/.opam/lip/lib/logs/logs_lwt.cma /root/.opam/lip/lib/ocaml/unix.cma /root/.opam/lip/lib/ocaml/bigarray.cma /root/.opam/lip/lib/ocplib-endian/ocplib_endian.cma /root/.opam/lip/lib/ocplib-endian/bigstring/ocplib_endian_bigstring.cma /root/.opam/lip/lib/ocaml/threads/threads.cma /root/.opam/lip/lib/lwt/unix/lwt_unix.cma -I /root/.opam/lip/lib/lwt/../stublibs /root/.opam/lip/lib/react/react.cma /root/.opam/lip/lib/lwt_react/lwt_react.cma /root/.opam/lip/lib/result/result.cma /root/.opam/lip/lib/uutf/uutf.cma /root/.opam/lip/lib/uucp/uucp.cma /root/.opam/lip/lib/uuseg/uuseg.cma /root/.opam/lip/lib/zed/zed.cma /root/.opam/lip/lib/trie/trie.cma /root/.opam/lip/lib/mew/mew.cma /root/.opam/lip/lib/mew_vi/mew_vi.cma /root/.opam/lip/lib/lambda-term/lambda_term.cma -I /root/.opam/lip/lib/lambda-term/../stublibs /root/.opam/lip/lib/xdg/xdg.cma -I /root/.opam/lip/lib/xdg/../stublibs /root/.opam/lip/lib/utop/uTop.cma lib/nand.cma .utop/.utop.eobjs/byte/dune__exe__Utop.cmo -linkall -warn-error -31)
