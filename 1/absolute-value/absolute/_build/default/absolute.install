@@ -1,0 +1,8 @@
+lib: [
+  "_build/install/default/lib/absolute/META"
+  "_build/install/default/lib/absolute/dune-package"
+  "_build/install/default/lib/absolute/opam"
+]
+bin: [
+  "_build/install/default/bin/absolute"
+]
