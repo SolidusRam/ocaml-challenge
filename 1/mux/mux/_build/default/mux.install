@@ -1,0 +1,8 @@
+lib: [
+  "_build/install/default/lib/mux/META"
+  "_build/install/default/lib/mux/dune-package"
+  "_build/install/default/lib/mux/opam"
+]
+bin: [
+  "_build/install/default/bin/mux"
+]
