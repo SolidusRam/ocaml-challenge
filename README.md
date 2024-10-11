@@ -4,6 +4,7 @@ It is suggested to work on exercises using a local installation of OCaml.
 - Read the [instructions](tutorials/install-ocaml.md) to install OCaml on your machine;
 - Read the [instructions](tutorials/setup-git.md) to keep your solutions to the exercises on a local repository synchronized with github.
 - Guida al commit: solution.ml contiene la rispettiva soluzione, per testare: opam -init solution.ml
+- Dentro utop #use "nomefile"
 
 ## Level 1
 
