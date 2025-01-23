@@ -1,9 +1,7 @@
-let countzero f a b =
-  let rec countzero' f a b =
-    if a > b then 0
-    else if f a = 0 then 1 + countzero' f (a + 1) b
-    else countzero' f (a + 1) b
-  in countzero' f a b ;;
+let rec countzero f a b =
+  if a > b then 0
+  else if f a = 0 then 1 + countzero f (a + 1) b
+  else countzero f (a + 1) b ;;
 
 (* Test cases *)
 assert (countzero (fun x -> x) (-10) 10 = 1);;
